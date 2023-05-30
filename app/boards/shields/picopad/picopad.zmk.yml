@@ -1,0 +1,10 @@
+file_format: "1"
+id: picopad
+name: PicoPad
+type: shield
+url: https://github.com/jeff-comley/zmk-config-pico/
+requires: [rpi_pico]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
