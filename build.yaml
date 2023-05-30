@@ -14,4 +14,4 @@
 ---
 include:
   - board: rpi_pico
-    shield: boardsource3x4
+    shield: picopad
