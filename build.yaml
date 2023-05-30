@@ -13,5 +13,5 @@
 #
 ---
 include:
-  - board: adafruit_kb2040
+  - board: rpi_pico
     shield: boardsource3x4
