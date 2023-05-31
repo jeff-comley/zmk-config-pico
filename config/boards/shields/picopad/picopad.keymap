@@ -16,7 +16,7 @@
     };
 };
 
-i2c0_default {
+&i2c0_default {
     status = "okay";
 
     oled: ssd1306@3c {
