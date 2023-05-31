@@ -2,6 +2,9 @@ if PICOPAD
 
 config ZMK_KEYBOARD_NAME
     default "Pico Pad"
+
+endif
+
 if ZMK_DISPLAY
 
 config I2C
