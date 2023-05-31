@@ -9,7 +9,7 @@
 
 	i2c0_default: i2c0_default {
 		group1 {
-			pinmux = <I2C0_SDA_P6>, <I2C0_SCL_P7>;
+			pinmux = <I2C0_SDA_P11>, <I2C0_SCL_P12>;
 			input-enable;
 			input-schmitt-enable;
 		};
