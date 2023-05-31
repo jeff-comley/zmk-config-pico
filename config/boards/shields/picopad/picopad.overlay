@@ -9,8 +9,7 @@
         diode-direction = "col2row";
 
         col-gpios
-            = <&gpio0 7 GPIO_ACTIVE_HIGH>
-            , <&gpio0 8 GPIO_ACTIVE_HIGH>
+            = <&gpio0 8 GPIO_ACTIVE_HIGH>
             , <&gpio0 9 GPIO_ACTIVE_HIGH>
             ;
 
