@@ -3,7 +3,7 @@ if PICOPAD
 config ZMK_KEYBOARD_NAME
     default "Pico Pad"
 
-endif
+
 
 if ZMK_DISPLAY
 
@@ -36,3 +36,4 @@ endchoice
 endif # LVGL
 
 
+endif
