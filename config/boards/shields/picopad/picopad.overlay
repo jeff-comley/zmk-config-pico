@@ -18,4 +18,24 @@
             , <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
+        joystickx: joystickx {
+        compatible = "joystick";
+        label = "JOYSTICKY";
+        io-channels = <&adc 1>;
+        status = "okay";
+        resolution = <512>;
+        frequency = <50>;
+        min_on = <256>;
+        reverse;
+    };
+        joystickx: joystickx {
+        compatible = "joystick";
+        label = "JOYSTICKX";
+        io-channels = <&adc 0>;
+        status = "okay";
+        resolution = <512>;
+        frequency = <50>;
+        min_on = <256>;
+        reverse;
+    };
 };
