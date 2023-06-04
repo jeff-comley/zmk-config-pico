@@ -1,4 +1,4 @@
-if PICOPAD
+if picopad
 
 config ZMK_KEYBOARD_NAME
     default "Pico Pad"
