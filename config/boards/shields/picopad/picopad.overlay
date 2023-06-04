@@ -9,33 +9,12 @@
         diode-direction = "col2row";
 
         col-gpios
-            = <&gpio0 8 GPIO_ACTIVE_HIGH>
-            , <&gpio0 9 GPIO_ACTIVE_HIGH>
+            = <&gpio0 0 GPIO_ACTIVE_HIGH>
             ;
 
         row-gpios
-            = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&gpio0 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
-        joysticky: joysticky {
-        compatible = "joystick";
-        label = "JOYSTICKY";
-        io-channels = <&adc 1>;
-        status = "okay";
-        resolution = <512>;
-        frequency = <50>;
-        min_on = <256>;
-        reverse;
-    };
-        joystickx: joystickx {
-        compatible = "joystick";
-        label = "JOYSTICKX";
-        io-channels = <&adc 0>;
-        status = "okay";
-        resolution = <512>;
-        frequency = <50>;
-        min_on = <256>;
-        reverse;
-    };
+
 };
